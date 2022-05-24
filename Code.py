@@ -194,3 +194,4 @@ except FileNotFoundError as msg:
     print(msg)
 
 tela.Iniciar()
+
