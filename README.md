@@ -113,10 +113,6 @@ $ git clone https://hostname/YOUR-USERNAME/YOUR-REPOSITORY
 
 ```
 
-
-Fonte:<br>
-https://medium.com/interviewnoodle/linear-search-vs-binary-search-845fd09dbde3
-
 Ferramenta:<br>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 ```
