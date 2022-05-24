@@ -1,3 +1,10 @@
+Banco de Dados para Análise:
+
+ex: GRU ADD 6165
+GRU: Sigla do Aeroporto de Origem
+ADD: Sigla do Aeroporto de Destino
+6165: Distância em Milhas
+
 GRU ADD 6165
 GRU BCN 5443
 GRU BOG 2692
