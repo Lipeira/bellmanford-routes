@@ -67,3 +67,11 @@ Conclusão:
 
 Finalizando o projeto podemos constatar o sucesso do algoritmo implantado, bem como a resolução do problema proposto. Vale ressaltar que a complexidade do algoritmo é O(|V| x |E|), uma complexidade relativamente boa , que nos traz um bom resultado se implementada no exercício proposto. 
 Poderíamos tentar aprimorar o algoritmo para mostrar não só o menor caminho de um aeroporto à outro, mas também mostrar todos os menores caminhos possíveis existentes entre todos os aeroportos! Mas é claro, levaria mais tempo e seria um pouco mais complicado. Nosso objetivo é apenas demonstrar como funciona o Algoritmo de Bellman-Ford e sua aplicação no dia a dia podendo ser de extrema importância.
+
+
+Referências:
+
+https://www.flightconnections.com
+http://www.distanciascidades.com/pesquisa/
+https://distancecalculator.globefeed.com/Distance_Between_Countries.asp
+https://www.youtube.com/watch?v=Et0fYeA2XxY
