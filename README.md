@@ -71,7 +71,10 @@ Poderíamos tentar aprimorar o algoritmo para mostrar não só o menor caminho d
 
 Referências:
 
-https://www.flightconnections.com
-http://www.distanciascidades.com/pesquisa/
-https://distancecalculator.globefeed.com/Distance_Between_Countries.asp
+https://www.flightconnections.com
+
+http://www.distanciascidades.com/pesquisa/
+
+https://distancecalculator.globefeed.com/Distance_Between_Countries.asp
+
 https://www.youtube.com/watch?v=Et0fYeA2XxY
