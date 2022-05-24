@@ -1,6 +1,5 @@
 
 ## Sumário:
-____
 
 [Contexto](#contextualização) 
 
