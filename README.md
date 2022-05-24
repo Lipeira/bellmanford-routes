@@ -1,23 +1,38 @@
-# Readme in development
 
-Contextualização:
+## Sumário:
+____
 
+[Contexto](#contextualização) 
+
+[Resolução do Problema](#resolução-do-problema)
+
+[Implementação](#implementação)
+
+[Conclusão](#conclusão)
+
+[Clonar Git](#clonar-git)
+
+____
+
+## Contextualização:
+<br>
 Um planejador de voos aéreos estava decidindo otimizar as rotas de voos no mundo. Para isso ele procurou os principais aeroportos internacionais para entender como são suas conexões e a distância entre eles, a fim de otimizar as rotas e proporcionar uma redução de custo e tráfego aéreo. Seria mesmo possível tal fato?
 
 Suponha uma situação hipotética em que você deseja viajar o mais rápido possível para outro país, mas não conhece as rotas e portanto não terá como saber o meio mais rápido. Ou ainda pior, algumas rotas foram canceladas e apenas poucas sobraram, logo, você deve optar por um caminho mapeado previamente para alcançar seu objetivo. Como resolver?
 
-Base de Dados:
-https://drive.google.com/file/d/1V86ZiVePa0FSoB-TZ38AkVKpghoIvRgv/view
+[Acessar base de dados](https://drive.google.com/file/d/1V86ZiVePa0FSoB-TZ38AkVKpghoIvRgv/view)
 
 Ao todo anotamos 135 conexões realizadas entre 93 aeroportos localizadas no mundo todo.
 A foto ao lado comprova esse quantitativo após colocarmos os dados em uma lista e vermos se existia alguma repetição ou não. 
 No final, fizemos o programa dar um output relacionado a cada vértice e seu quantitativo, bem como todas as conexões analisadas no banco de dados.
 
 Utilizamos o miro para analisar toda a base de dados e fazer a construção de um grafo temporário apenas para facilitar a nossa visualização e a explicação no projeto.
-https://miro.com/app/board/uXjVO80ehqk=/
 
-Resolução do Problema: 
+[Acessar grafo no MIRO](https://miro.com/app/board/uXjVO80ehqk=/)
 
+______
+## Resolução do Problema: 
+<br>
 Uma solução simples e eficaz seria utilizar algum programa ou alguma tecnologia que calculasse e nos desse esse caminho e o trajeto a ser realizado. Mas será que existe tal algoritmo?
 A resposta é sim. O problema pode ser solucionado ao utilizar algoritmos bastante conhecidos como o Algoritmo de Dijkstra ou de Bellman-Ford. Optamos pelo de Bellman-Ford e o nosso objetivo consiste em partir de uma origem definida até o destino final. Além disso, estaremos mostrando todo o percurso para alcançar o destino, bem como a distância entre cada ponto.
 Dessa forma, além de facilmente escolher o menor caminho entre um aeroporto e outro baseado de acordo com nossa base de dados, também é possível saber a distância entre cada aeroporto individualmente e a sua soma final para todo o trajeto.
@@ -38,38 +53,45 @@ Após esse loop, o programa faz com que ele entre em outra repetição apenas pa
 
 Por fim, fizemos uma interface gráfica e um visualizador de grafos unificando todos em um único programa. Mas o ponto principal é apenas demonstrar como encontrar o menor caminho com o algoritmo escolhido.
 
-Implementação:
+____
+
+## Implementação:
+<br>
 
 Como escolhemos o Algoritmo de Bellman-Ford criamos um programa que partirá de uma origem definida até seu destino relaxando todas as arestas existentes na base de dados. Além disso, criamos uma interface gráfica e um visualizador de grafos, unificando todos eles juntamente do próprio Algoritmo de Bellman-Ford.
 
-Bibliotecas:
+### Bibliotecas:
 
 As bibliotecas que utilizamos foram:
 	- PySimpleGUI
 	- Networkx
 	- Matplotlib
 
-PySimpleGUI --> Interface Gráfica
-Networkx --> Visualizador de Grafos
-Matplotlib --> Plotar o Visualizador de Grafos
+### PySimpleGUI --> Interface Gráfica
+### Networkx --> Visualizador de Grafos
+### Matplotlib --> Plotar o Visualizador de Grafos
+<br>
 
-Interface Gráfica:
+### Interface Gráfica:
 
 Nossa Interface Gráfica é capaz de calcular a rota mostrando todos os caminhos percorrido até o destino, além de mostrar todos os aeroportos disponíveis também(quantidade de vértices).
 
 Por fim, adicionamos a opção de Visualizar Grafo que mostra exatamente como está sendo feita todas as conexões caso tenha alguma dúvida ou não saiba para onde ir.
 
-Visualizador de Grafos:
+### Visualizador de Grafos:
 
 O visualizar de grafos consegue representar com precisão todas as conexões feitas como se fosse exatamente um grafo direcionado que é o nosso objetivo. Além disso, as informações batem com o grafo provisório que fizemos no Miro mostrado em slides anteriores.
 
-Conclusão:
+_____
 
+## Conclusão:
+<br>
 Finalizando o projeto podemos constatar o sucesso do algoritmo implantado, bem como a resolução do problema proposto. Vale ressaltar que a complexidade do algoritmo é O(|V| x |E|), uma complexidade relativamente boa , que nos traz um bom resultado se implementada no exercício proposto. 
 Poderíamos tentar aprimorar o algoritmo para mostrar não só o menor caminho de um aeroporto à outro, mas também mostrar todos os menores caminhos possíveis existentes entre todos os aeroportos! Mas é claro, levaria mais tempo e seria um pouco mais complicado. Nosso objetivo é apenas demonstrar como funciona o Algoritmo de Bellman-Ford e sua aplicação no dia a dia podendo ser de extrema importância.
 
+<br>
 
-Referências:
+### Referências:
 
 https://www.flightconnections.com
 
@@ -78,3 +100,24 @@ http://www.distanciascidades.com/pesquisa/
 https://distancecalculator.globefeed.com/Distance_Between_Countries.asp
 
 https://www.youtube.com/watch?v=Et0fYeA2XxY
+
+___
+## Clonar Git
+
+```bash
+$ cd 
+$ cd Desktop
+$ mkdir GithubRepository
+$ cd GithubRepository
+$ git clone https://hostname/YOUR-USERNAME/YOUR-REPOSITORY
+
+```
+
+
+Fonte:<br>
+https://medium.com/interviewnoodle/linear-search-vs-binary-search-845fd09dbde3
+
+Ferramenta:<br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+```
+
